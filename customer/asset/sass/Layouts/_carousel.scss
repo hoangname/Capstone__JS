@@ -1,0 +1,20 @@
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    svg{
+        vertical-align: middle;
+    }
+}
+.banner-image{
+    background: $color-bg, url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    .btn{
+        font-size: $fs-2;
+    }
+}
+.star-rating a {
+    color: $color-white;
+    margin-right: 10px;
+}

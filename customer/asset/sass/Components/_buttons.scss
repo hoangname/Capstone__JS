@@ -1,0 +1,29 @@
+.btn{
+    @include textStyle($fs-1,$color-white-1,$lh-1);
+    @include buttonStyle($bd-0,$pd-3,$radius-1);
+    transition: all 0.15s;
+    cursor: pointer;
+    font-family: 'Muli';
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    background-color: $color-light;
+    &:hover{
+        outline: none;
+        background-color:$color-blue ;
+    }
+   
+}
+.red-btn{
+    background-color: #df461f;
+    &:hover{
+        background-color: #e96443;
+    }
+}
+.yellow-btn{
+    background-color: #f0b80f;
+    &:hover{
+        background-color: #f1ca55;
+    }
+}

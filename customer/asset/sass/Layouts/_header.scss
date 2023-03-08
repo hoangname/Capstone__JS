@@ -1,0 +1,27 @@
+header #navbarColor01 a {
+    transition: 0.3s all ease-in-out;
+    &:hover{
+        transform: scale(1.15);
+    }
+}
+nav.black {
+    background:$color-black-1;
+}
+.nav1{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.nav-link .badge {
+    position: relative;
+    padding: 0.2em 0.5em;
+    top: -10px;
+    left: -12px;
+    z-index: 1;
+}   
+.nav2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+
+.nav2 {
+  display: flex;
+}
+#navbarNavAltMarkup{
+    justify-content: space-between;
+}
+header{
+  &.container{
+    padding: 25px;
+  }
+}
+.my-popup-custom{
+	Width: 140px;
+	Height: 70px;
+	Background: rgb(228, 195, 237);
+	Box-sizing: border-box; /* for inside padding */
+	Padding: 10px;
+  font-weight: 600;
+
+	/* for center */
+	Position:fixed;
+	top:50%;
+	left:50%;
+	Transform: translate(-50%,-50%);
+
+	/* for hider */
+	display:none;
+}

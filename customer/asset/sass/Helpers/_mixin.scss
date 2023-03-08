@@ -1,0 +1,10 @@
+@mixin textStyle($fs,$color,$lh){
+    font-size: $fs;
+    color:$color;
+    line-height: $lh;
+}
+@mixin buttonStyle($bd,$pd,$radius){
+    border:$bd;
+    padding: $pd;
+    border-radius:$radius;
+}
